@@ -1,4 +1,4 @@
-import logo from "../assets/Pandora-logo.png";
+import logo from "../assets/Pandora-Logo.png";
 import facebook from "../assets/facebook.png";
 import instagram from "../assets/instagram.png";
 import x from "../assets/x.png";
