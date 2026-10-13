@@ -1,4 +1,4 @@
-import logo from "../assets/Pandora-logo.png";
+import logo from "../assets/Pandora-Logo.png";
 import lupaBlanca from "../assets/lupa-blanca.png";
 import lupaNegro from "../assets/lupa-negro.png";
 import coraBlanco from "../assets/cora-blanco.png";
