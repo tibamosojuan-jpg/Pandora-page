@@ -38,7 +38,7 @@ export default function MenuCategorias() {
           </ul>
         </div>
 
-        {/* Imagen principal */}
+        {}
         <div className="relative aspect-[4/5] overflow-hidden">
           <img
             src={imagenModelo}
@@ -48,7 +48,7 @@ export default function MenuCategorias() {
 
         </div>
 
-        {/* Imagen secundaria */}
+        {}
         <div className="hidden lg:block">
           <img
             key={actual.imagen}
