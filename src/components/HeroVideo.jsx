@@ -23,7 +23,7 @@ export default function HeroVideo() {
     };
 
     return (
-    <section className="relative h-[80vh] w-full overflow-hidden">
+    <section className="relative h-[80vh] w-full overflow-hidden text-left">
         <video
         ref={videoRef}
         className="absolute inset-0 h-full w-full object-cover"
@@ -58,7 +58,7 @@ export default function HeroVideo() {
 </button>
 </div>
 
-      {}
+        {}
         <div className="absolute bottom-0 right-[4%] flex bg-[#231815] text-white">
         <button
         onClick={alternarPausa}

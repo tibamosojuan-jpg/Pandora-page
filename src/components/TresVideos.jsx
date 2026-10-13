@@ -58,10 +58,10 @@ function VideoBanner({ src, marca, titulo, boton, copyright }) {
         playsInline
       />
 
-      {/* Capa oscura para que el texto se lea bien */}
+      {}
       <div className="absolute inset-0 bg-black/25" />
 
-      {/* Texto + botón (abajo a la izquierda) */}
+      {}
       <div className="absolute bottom-0 left-[4%] text-white">
         <p className="text-sm">{marca}</p>
         <h2 className="mt-3 max-w-xl whitespace-pre-line text-3xl font-normal leading-snug md:text-5xl">
@@ -75,14 +75,14 @@ function VideoBanner({ src, marca, titulo, boton, copyright }) {
         </button>
       </div>
 
-      {/* Copyright */}
+      {}
       {copyright && (
         <span className="absolute bottom-24 right-[4%] text-xs text-white">
           {copyright}
         </span>
       )}
 
-      {/* Controles (abajo a la derecha) */}
+      {}
       <div className="absolute bottom-0 right-[4%] flex bg-[#231815] text-white">
         <button
         onClick={alternarPausa}
@@ -129,7 +129,7 @@ function VideoBanner({ src, marca, titulo, boton, copyright }) {
 
 export default function TresVideos() {
   return (
-    <section className="flex flex-col">
+    <section className="flex flex-col text-left">
       {videos.map((v) => (
         <VideoBanner key={v.src} {...v} />
       ))}

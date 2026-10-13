@@ -1,6 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap");
 @import "tailwindcss";
 
+
+
 @theme {
   --font-sans: "Jost", system-ui, sans-serif;
+}
+
+:root {
+  --margen-x: clamp(1rem, 4vw, 4rem);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#root {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }

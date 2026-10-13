@@ -6,7 +6,7 @@ export default function PromoPulsera() {
   return (
     <section className="mx-auto max-w-7xl px-6 py-16">
       <div className="grid items-center gap-10 md:grid-cols-2 md:gap-16">
-        {/* Imagen */}
+        {}
         <div className="relative aspect-[3/4] w-full bg-[#f5f5f5]">
           <img
             src="/img/promo-pulsera.png"
@@ -32,14 +32,18 @@ export default function PromoPulsera() {
           </button>
         </div>
 
-        {/* Texto */}
+        {}
         <div className="max-w-xl">
           <span className="inline-block bg-pink-100 px-1.5 py-1 text-sm text-[#2a1f1f]">
             ¡Ahora también con Pandora Minis!
           </span>
 
-          <h2 className="mt-6 text-4xl font-medium uppercase leading-tight tracking-wide text-[#2a1f1f] lg:text-5xl">
-            -20 % en 1 pulsera y tantos charms como quieras
+          <h2 className="mt-6 text-2xl font-medium uppercase leading-tight tracking-wide text-[#2a1f1f] lg:text-4xl">
+            -20 % en 1 pulsera y 
+            <br />
+            tantos charms como
+            <br />
+            quieras
           </h2>
 
           <p className="mt-6 leading-relaxed text-[#2a1f1f]">
